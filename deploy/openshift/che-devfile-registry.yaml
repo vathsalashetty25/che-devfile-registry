@@ -86,6 +86,9 @@ objects:
   metadata:
     name: che-devfile-registry
   spec:
+    tls:
+      termination:
+        edge
     to:
       kind: Service
       name: che-devfile-registry
