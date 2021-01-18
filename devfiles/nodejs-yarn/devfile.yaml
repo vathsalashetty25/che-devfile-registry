@@ -12,7 +12,7 @@ components:
   -
     type: chePlugin
     id: che-incubator/typescript/latest
-    memoryLimit: 512Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: dockerimage
     alias: nodejs

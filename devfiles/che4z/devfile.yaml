@@ -6,18 +6,23 @@ components:
   - 
     type: chePlugin
     id: broadcommfd/cobol-language-support/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   - 
     type: chePlugin
     id: broadcommfd/explorer-for-endevor/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   - 
     type: chePlugin
     id: broadcommfd/debugger-for-mainframe/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   - 
     type: chePlugin
     id: broadcommfd/hlasm-language-support/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   - 
     type: chePlugin
     id: zowe/vscode-extension-for-zowe/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   - 
     alias: zowe-cli
     type: kubernetes

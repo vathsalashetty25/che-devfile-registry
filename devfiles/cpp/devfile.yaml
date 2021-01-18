@@ -9,10 +9,13 @@ projects:
       type: git
       location: 'https://github.com/che-samples/cpp-hello-world'
 components:
-  - type: chePlugin
+  -
+    type: chePlugin
     id: eclipse-cdt/cdt-vscode/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
     alias: cpp-plugin
-  - type: dockerimage
+  -
+    type: dockerimage
     alias: cpp-dev
     image: quay.io/eclipse/che-cpp-rhel7:nightly
     memoryLimit: 512Mi

@@ -13,6 +13,7 @@ components:
   -
     type: chePlugin
     id: scalameta/metals/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: dockerimage
     alias: sbt

@@ -14,12 +14,12 @@ components:
     type: chePlugin
     alias: omnisharp
     id: redhat-developer/che-omnisharp-plugin/latest
-    memoryLimit: 1024Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: chePlugin
     alias: netcoredbg
     id: redhat-developer/netcoredbg-theia-plugin/latest
-    memoryLimit: 512Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: dockerimage
     alias: dotnet

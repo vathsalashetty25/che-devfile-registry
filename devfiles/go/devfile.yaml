@@ -20,8 +20,8 @@ components:
 -
   type: chePlugin
   id: golang/go/latest
+  registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   alias: go-plugin
-  memoryLimit: 512Mi
   env:
     - value: 'off'
       name: GO111MODULE

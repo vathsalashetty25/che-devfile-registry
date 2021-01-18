@@ -23,6 +23,7 @@ components:
   - id: rogalmic/bash-debug/latest
     type: chePlugin
   - id: timonwong/shellcheck/latest
+    # need to move this limitation to the plugin
     memoryLimit: 64Mi
     preferences:
       shellcheck.executablePath: /bin/shellcheck

@@ -12,11 +12,11 @@ components:
 -
   type: chePlugin
   id: bmewburn/vscode-intelephense-client/latest
-  memoryLimit: 1Gi
+  registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
 -
   type: chePlugin
   id: felixfbecker/php-debug/latest
-  memoryLimit: 256Mi
+  registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
 -
   type: dockerimage
   alias: php

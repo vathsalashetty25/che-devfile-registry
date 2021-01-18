@@ -12,15 +12,15 @@ components:
   -
     type: chePlugin
     id: redhat/vscode-xml/latest
-    memoryLimit: 150Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: chePlugin
     id: redhat/vscode-apache-camel/latest
-    memoryLimit: 260Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: chePlugin
     id: redhat/java8/latest
-    memoryLimit: 1360Mi
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: dockerimage
     alias: maven

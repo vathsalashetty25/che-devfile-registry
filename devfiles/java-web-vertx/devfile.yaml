@@ -12,6 +12,7 @@ components:
   -
     type: chePlugin
     id: redhat/java8/latest
+    registryUrl: 'https://pr-check-774-alpine-che-plugin-registry.surge.sh/v3'
   -
     type: dockerimage
     alias: maven
