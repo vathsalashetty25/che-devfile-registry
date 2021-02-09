@@ -60,11 +60,6 @@ jobs:
         set +o pipefail
         docker load -i ./caches/app.tar | true
       - 
-       name: Cache docker layers
-       run: |
-        mkdir -p ./caches
-        docker save -o ./caches/app.tar app
-      - 
        name: Build devfile registry
        uses: docker/build-push-action@v2
        with:
@@ -76,6 +71,11 @@ jobs:
           cache-from: "type=local,src=/tmp/.buildx-cache"
           cache-to: "type=local,dest=/tmp/.buildx-cache"
           push: false
+      - 
+       name: Cache docker layers
+       run: |
+        mkdir -p ./caches
+        docker save -o ./caches/app.tar app 
       - 
        name: Build offline devfile registry
        uses: docker/build-push-action@v2
